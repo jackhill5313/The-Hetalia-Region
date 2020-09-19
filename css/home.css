@@ -1,0 +1,107 @@
+/*Home: Intro*/
+#intro{
+	position: relative;
+	height: 100vh;
+	
+	background-color: #636363;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	text-align: center;
+	text-shadow: 0 0 10px rgba(0,0,0,0.05);
+	color: white;
+}
+
+#intro h1{
+    margin-bottom: 50px;
+}
+
+#intro p{
+    margin-bottom: 30px;
+}
+
+.align-center{ /*Keeps the text and elements over the image on intro aligned and away from the Nav var on top of the background picture*/
+	position: relative;
+	top: 25vh;
+	padding: 20px;
+}
+
+/*Home: info*/
+#info{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+    text-align: center;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.info-showcase{
+    align-items: center;
+    width: 700px;
+    margin-bottom: 40px;
+    padding: 30px;
+
+    background-color: #333;
+    color: white;
+  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+	transition-duration: 0.5s;
+}
+
+.info-showcase:hover{
+    transform: scale(1.025);
+    transition: transform 0.2s linear;
+}
+
+.info-showcase .flex-row{
+    padding: 10px;
+}
+
+.info-showcase .flex-column{
+    width: 80%;
+}
+
+.info-showcase ion-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.icon-container{
+    width: 20%;
+}
+
+.icons-container{
+    width: 40%;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.icons-container ion-icon{
+    height: 40px;
+    width: 40px;
+    color: #333;
+    transition-duration: 0.5s;
+}
+
+.icons-container ion-icon:hover{
+    opacity: 85%;
+}
+
+/*For mobile phones*/
+@media screen and (max-width: 790px){
+  .info-showcase{
+     width: 70%;
+  }
+  .icons-container{
+  	width: 100%;
+  }
+}

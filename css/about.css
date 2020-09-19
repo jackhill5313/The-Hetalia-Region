@@ -1,0 +1,44 @@
+/*About: Index*/
+#index{
+    margin-bottom: 40px;
+    margin-top: 15vh;
+}
+
+#index li{
+    list-style-type: none;
+}
+
+/*About: Know the server*/
+
+/*About: Know the Mods*/
+#lars{
+  color: #98E53E;
+}
+
+#yuzu{
+  color: #00FFFE;
+}
+
+#owner{
+  color: #F3B0FA;
+}
+
+#treas{
+  color: #FFBCBE;
+}
+
+.mod{
+  color: #35E2A2;
+}
+
+/*About: Credit*/
+
+#credit .flex-column{
+    flex-wrap: wrap;
+}
+#credit .flex-center{
+    flex-wrap: wrap;
+}
+#credit .flex-row{
+    flex-wrap: wrap;
+}
