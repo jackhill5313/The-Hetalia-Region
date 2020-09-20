@@ -16,11 +16,13 @@ Inside the CSS folder you'll find 4 css files.
 2. home.css: Contains CSS instructions and exceptions that apply to the home page. 
 3. faq.css: Contains CSS instructions and exceptions that apply to the FAQ page.
 4. about.css: Contains CSS instructions and exceptions that apply to the About page.
-<br>
 
 ### Javascript:
 The script.js file contains all the JavaScript programming of this project.
 <br><br>
+
+## Credit:
+The website was programmed and deployed by Nessie🌈#2169 (inesisprograming on GitHub) and the Japanese translations were done by yx.#0001. <br><br>
 
 ## Links: 
 (https://hetalia.net/ "Our webpage")<br>
