@@ -25,5 +25,5 @@ The script.js file contains all the JavaScript programming of this project.
 The website was programmed and deployed by Nessie🌈#2169 (inesisprograming on GitHub) and the Japanese translations were done by yx.#0001. <br><br>
 
 ## Links: 
-(https://hetalia.net/ "Our webpage")<br>
-(https://discord.gg/hetalia "Join the server")
+[Our webpage](https://hetalia.net/)<br>
+[Join the server](https://discord.gg/hetalia)
