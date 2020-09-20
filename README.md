@@ -20,6 +20,7 @@ Inside the CSS folder you'll find 4 css files.
 
 ### Javascript:
 The script.js file contains all the JavaScript programming of this project.
+<br><br>
 
 ## Links: 
 (https://hetalia.net/ "Our webpage")<br>
