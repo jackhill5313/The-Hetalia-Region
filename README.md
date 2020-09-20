@@ -19,7 +19,11 @@ Inside the CSS folder you'll find 4 css files.
 
 #### Javascript:
 The script.js file contains all the JavaScript programming of this project.
-<br><br>
+<br>
+
+#### Images:
+All images used in this project are inside the img folder. 
+<br><br> 
 
 ## Credit:
 The website was programmed and deployed by Nessie🌈#2169 (inesisprograming on GitHub) and the Japanese translations were done by yx.#0001. <br><br>

@@ -23,7 +23,7 @@
 
 .align-center{ /*Keeps the text and elements over the image on intro aligned and away from the Nav var on top of the background picture*/
 	position: relative;
-	top: 25vh;
+	top: 30vh;
 	padding: 20px;
 }
 
@@ -99,7 +99,7 @@
 /*For mobile phones*/
 @media screen and (max-width: 790px){
   .info-showcase{
-     width: 70%;
+     width: 80%;
   }
   .icons-container{
   	width: 100%;
