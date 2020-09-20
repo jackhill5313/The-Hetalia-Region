@@ -30,15 +30,3 @@
 .mod{
   color: #35E2A2;
 }
-
-/*About: Credit*/
-
-#credit .flex-column{
-    flex-wrap: wrap;
-}
-#credit .flex-center{
-    flex-wrap: wrap;
-}
-#credit .flex-row{
-    flex-wrap: wrap;
-}

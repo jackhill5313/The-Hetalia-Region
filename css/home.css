@@ -98,10 +98,17 @@
 
 /*For mobile phones*/
 @media screen and (max-width: 790px){
-  .info-showcase{
+    .info-showcase{
      width: 80%;
-  }
-  .icons-container{
-  	width: 100%;
-  }
+    }
+    .icons-container{
+  	    width: 100%;
+    }
+
+    #intro h1{
+        margin-bottom: 30px;
+    }
+    .align-center{
+        top: 25vh;
+    }
 }
