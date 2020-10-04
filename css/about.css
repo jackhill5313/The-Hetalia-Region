@@ -1,32 +1,119 @@
-/*About: Index*/
-#index{
-    margin-bottom: 40px;
-    margin-top: 15vh;
+/*Empty sections*/
+#about-page{
+  width: 800px;
+  margin: 0 auto; 
+  margin-top: 13vh;
+  margin-bottom: 40px;
 }
 
-#index li{
-    list-style-type: none;
+#about-page p{
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-/*About: Know the server*/
+.about-section{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 810px) {
+  #about-page{
+    width: 100%;
+  }
+}
+
+ol{
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.index-item{
+  font-size: 22px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.index-sub-item{
+  font-size: 18px;
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+#about-page h2{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#about-page h3{
+  font-size: 25px;
+}
 
 /*About: Know the Mods*/
 #lars{
-  color: #98E53E;
+  color: #71ac2f;
 }
 
 #yuzu{
-  color: #00FFFE;
+  color: #00b3b3;
 }
 
 #owner{
-  color: #F3B0FA;
+  color: #d64be6;
 }
 
 #treas{
-  color: #FFBCBE;
+  color: #df9395;
+}
+
+#lee{
+  color: #06CC2A;
 }
 
 .mod{
-  color: #35E2A2;
+  color: #1eaa77;
+}
+
+.meet-box{
+  height: 80px;
+  width: 220px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.meet-box h4{
+  margin: 0;
+}
+
+.meet-box p{
+  margin: 0;
+}
+
+#about-page .flex-row{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+@media screen and (max-width: 790px) {
+  #about-page h2{
+    font-size: 29px;
+  }
+  #about-page p{
+    font-size: 17px;
+  }
+  #about-page h3{
+    font-size: 24px;
+  }
+  #about-page .flex-row{
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: left;
+  }
 }

@@ -5,7 +5,7 @@
 	align-items: center;
 	justify-content: center;
     margin-bottom: 40px;
-    margin-top: 15vh;
+    margin-top: 13vh;
     text-align: center;
 }
 
@@ -23,11 +23,10 @@
 
 #faq h1{
     margin-bottom: 30px;
-    font-size: 28px;
 }
 
 #faq a{
-    color: rgb(173, 202, 255);
+    color: rgb(255, 255, 255);
 }
 
 /*Accordion*/
@@ -42,14 +41,14 @@
 
 .accordion-item{
 	background-color: transparent;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	padding: 10px;
     width: 100%;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 .accordion-title{
-	color: black;
+	color: #222222;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -59,10 +58,11 @@
     transition-duration: 0.5s;
     font-family: poppins;
     font-weight: 600;
+    font-size: 18px;
 }
 
 .accordion-title:hover{
-    color: #333/*rgb(103, 187, 214)*/;
+    color: #072738/*rgb(103, 187, 214)*/;
 }
 
 .accordion-title h2{
@@ -71,10 +71,10 @@
 }
 
 .accordion-content{
-     max-height: 0;
+    max-height: 0;
     overflow: hidden;
 	position: relative;
-	background-color: #333/*rgb(45, 125, 151)*/;
+	background-color: #072738/*rgb(45, 125, 151)*/;
     transition: max-height 0.6s;
     font-family: poppins;
     font-weight: 400;
@@ -84,13 +84,13 @@
 
 .accordion-content p{
 	padding: 2rem;
-	color: #e6e6e6;
+	color: white;
     font-size: 18px;
 }
 
 /*For mobile phones*/
 @media screen and (max-width: 790px) {
   .accordion{
-  	max-width: 100%;
+    max-width: 100%;
   }
 }

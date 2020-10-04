@@ -12,6 +12,7 @@ function scrollFunction() {
   }
 }
 
+//The button smoothly sends you to the top of the page
 mybutton.addEventListener("click", function(){
   window.scrollTo({
     top:0,
@@ -20,8 +21,10 @@ mybutton.addEventListener("click", function(){
   });
 });
 
+//Get the FAQ question element
 const questions = document.getElementsByClassName('accordion-title')
 
+//Open or close on click depending on status
 for (const question of questions) {
   const answer = question.parentElement.querySelector('.accordion-content')
   const remove = question.parentElement.querySelector(".remove")
