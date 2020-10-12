@@ -94,6 +94,15 @@ ol{
   margin: 0;
 }
 
+.meet-box .language{
+  border-radius: 5px;
+  position: relative;
+  right: 0;
+  top: 0;
+  height: 30px;
+  width: 47px;
+}
+
 #about-page .flex-row{
   align-items: center;
   justify-content: center;

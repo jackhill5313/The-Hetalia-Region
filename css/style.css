@@ -76,7 +76,7 @@ button{
   padding: 16px 40px;
 	margin: 5px;
 
-	transition-duration: 0.2s;
+	transition-duration: 0.3s;
 	cursor: pointer;
   outline: none;
   overflow: hidden;
@@ -84,7 +84,7 @@ button{
 }
 
 button:hover{
-  color: #072738;
+  color: #753b86;
   box-shadow: 0 8px 15px rgba(0,0,0,.2);
 }
 
@@ -132,7 +132,7 @@ button:hover{
 }
 
 .join:hover{
-  color: #072738;
+  color: #753b86;
 }
 
 .button-container{
@@ -237,7 +237,7 @@ nav{
 
 /* For mobile phones: */
 .nav_links a:hover{
-	color:  #003049;
+	color:  #753b86;
 }
 
 .nav_links li{
@@ -268,7 +268,7 @@ nav{
 
 #disclaimer{
   padding-top: 40px;
-  background: linear-gradient(to bottom right, #072738, #072738 );
+  background: linear-gradient(to bottom right, #753b86, #753b86 );
   color: white;
   text-align: center;
 }

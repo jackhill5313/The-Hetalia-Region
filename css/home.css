@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 	
-    background: #072738;
+    background: #753b86;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
@@ -48,10 +48,9 @@
     margin-bottom: 40px;
     padding: 30px;
 
-    color: #222222;
+    color: white;
   
     border-radius: 25px;
-    box-shadow: 10px 10px 30px #D1D9E6, -10px -10px 30px rgba(255, 255, 255, 0.9);
 
 	transition-duration: 0.5s;
 }
@@ -62,15 +61,15 @@
 }
 
 #info-showcase-1{
-    background-color: #eeeeee;
+    background-color: #3b5386;
 }
 
 #info-showcase-2{
-    background-color: #eeeeee;
+    background-color: #753b86;
 }
 
 #info-showcase-3{
-    background-color: #eeeeee;
+    background-color: #863b7c;
 }
 
 .info-showcase .flex-row{
