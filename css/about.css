@@ -16,15 +16,14 @@
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 810px) {
-  #about-page{
-    width: 100%;
-  }
-}
-
 ol{
   margin: 10px;
   margin-left: 20px;
+}
+
+ul{
+  margin-left: 20px;
+  font-family: roboto;
 }
 
 .index-item{
@@ -100,8 +99,7 @@ ol{
   right: 0;
   top: 0;
   height: 30px;
-  width: 47px;
-  h:g;
+  width: 50px;
 }
 
 #about-page .flex-row{
@@ -121,9 +119,7 @@ ol{
   #about-page h3{
     font-size: 24px;
   }
-  #about-page .flex-row{
-    justify-content: left;
-    flex-wrap: wrap;
-    text-align: left;
+  #about-page{
+    width: 100%;
   }
 }
