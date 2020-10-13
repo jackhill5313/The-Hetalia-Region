@@ -1,5 +1,5 @@
 /*Home: Intro*/
-#intro{
+header{
 	position: relative;
     height: 100vh;
     display: flex;
@@ -17,11 +17,11 @@
     color: white;
 }
 
-#intro h1{
+header h1{
     margin-bottom: 50px;
 }
 
-#intro p{
+header p{
     margin-bottom: 30px;
 }
 
@@ -120,7 +120,7 @@
   	    width: 100%;
     }
 
-    #intro h1{
+    #header h1{
         margin-bottom: 30px;
     }
     .align-center{

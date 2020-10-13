@@ -21,7 +21,7 @@ ol{
   margin-left: 20px;
 }
 
-ul{
+#about-page ul{
   margin-left: 20px;
   font-family: roboto;
 }
@@ -79,10 +79,6 @@ ul{
   border-radius: 10px;
   border: 1px solid #dcdcdc;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition-duration: 0.5s;
 }
 
 .meet-box h4{
@@ -91,15 +87,6 @@ ul{
 
 .meet-box p{
   margin: 0;
-}
-
-.meet-box .language{
-  border-radius: 5px;
-  position: relative;
-  right: 0;
-  top: 0;
-  height: 30px;
-  width: 50px;
 }
 
 #about-page .flex-row{
