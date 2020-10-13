@@ -74,7 +74,7 @@
     max-height: 0;
     overflow: hidden;
 	position: relative;
-	background-color: #753b86/*rgb(45, 125, 151)*/;
+	background-color: #753b86;
     transition: max-height 0.6s;
     font-family: poppins;
     font-weight: 400;
