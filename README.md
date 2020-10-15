@@ -1,5 +1,4 @@
 # The Hetalia Region 2.0 
-[![Hetalia](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://hetalia.net)
 Welcome to the docs section of the webpage of the biggest Hetalia Discord community, The Hetalia Region 2.0
 <br><br>
 
