@@ -73,7 +73,7 @@ ol{
 }
 
 .meet-box{
-  height: 80px;
+  height: 100px;
   width: 220px;
   margin: 15px;
   border-radius: 10px;
@@ -86,7 +86,7 @@ ol{
 }
 
 .meet-box p{
-  margin: 0;
+  margin: 2px !important;
 }
 
 #about-page .flex-row{
