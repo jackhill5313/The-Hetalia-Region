@@ -62,7 +62,7 @@
 }
 
 .accordion-title:hover{
-    color: #9752ac/*rgb(103, 187, 214)*/;
+    color: #5757a8;
 }
 
 .accordion-title h2{
@@ -74,7 +74,7 @@
     max-height: 0;
     overflow: hidden;
 	position: relative;
-	background-color: #753b86;
+	background-color: #5757a8;
     transition: max-height 0.6s;
     font-family: poppins;
     font-weight: 400;

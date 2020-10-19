@@ -7,9 +7,9 @@ header{
     align-items: center;
     justify-content: center;
 	
-    background: #753b86;
+    background: #578ca8;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: top left;
 	background-size: cover;
 	
 	text-align: center;
@@ -51,25 +51,25 @@ header p{
     color: white;
   
     border-radius: 10px;
-
-	transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 
 .info-showcase:hover{
     transform: scale(1.025);
-    transition: transform 0.2s linear;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    transition: box-shadow tranform 0.2s linear;
 }
 
 #info-showcase-1{
-    background-color: #3b5386;
+    background: linear-gradient(to bottom right, #578ca8, #5757a8 );
 }
 
 #info-showcase-2{
-    background-color: #753b86;
+    background: linear-gradient(to bottom right, #5757a8, #9457a8 );
 }
 
 #info-showcase-3{
-    background-color: #863b7c;
+    background: linear-gradient(to bottom right, #9457a8, #a85794 );
 }
 
 .info-showcase .flex-row{
@@ -108,7 +108,7 @@ header p{
 }
 
 .icons-container ion-icon:hover{
-    opacity: 85%;
+    opacity: 75%;
 }
 
 /*For mobile phones*/
