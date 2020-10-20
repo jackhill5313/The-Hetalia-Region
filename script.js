@@ -5,10 +5,10 @@ var mybutton = document.getElementById("btnScrollTop");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    mybutton.style.display = "block"; 
+  if (document.body.scrollTop > 110 || document.documentElement.scrollTop > 110) {
+    mybutton.style.visibility = "visible"; 
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.visibility = "hidden";
   }
 }
 

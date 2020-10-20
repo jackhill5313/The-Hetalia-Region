@@ -166,7 +166,7 @@ button:hover{
 
 /*Scroll to top button*/
 #btnScrollTop {
- 	display: none;
+ 	visibility: hidden;
  	position: fixed;
  	bottom: 30px;
  	right: 30px;
