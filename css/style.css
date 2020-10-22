@@ -236,6 +236,10 @@ nav{
 	transition-duration: 0.5s;
 }
 
+nav a{
+  text-decoration: none;
+}
+
 /* For mobile phones: */
 .nav_links a:hover{
 	color:  #5757a8;
