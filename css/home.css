@@ -104,7 +104,7 @@ header p{
     height: 40px;
     width: 40px;
     color: #222222;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 .icons-container ion-icon:hover{

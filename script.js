@@ -6,9 +6,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 110 || document.documentElement.scrollTop > 110) {
-    mybutton.style.visibility = "visible"; 
+    mybutton.style.display = "block"; 
   } else {
-    mybutton.style.visibility = "hidden";
+    mybutton.style.display = "none";
   }
 }
 
