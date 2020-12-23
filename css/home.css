@@ -22,8 +22,10 @@ header h1{
 }
 
 header p{
+    font-size: 25px;
     margin-bottom: 30px;
 }
+
 
 
 /*Home: info*/
@@ -77,7 +79,7 @@ header p{
 }
 
 .info-showcase .flex-column{
-    width: 80%;
+    width: 90%;
 }
 
 .info-showcase ion-icon{
@@ -120,9 +122,10 @@ header p{
   	    width: 100%;
     }
 
-    #header h1{
-        margin-bottom: 30px;
+    header p{
+        font-size: 20px;
     }
+    
     .align-center{
         top: 25vh;
     }
