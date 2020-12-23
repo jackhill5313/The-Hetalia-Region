@@ -12,13 +12,14 @@ h1{
   font-family: 'Rubik', sans-serif;
   margin-left: 20px;
   margin-right: 20px;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 h2{
   font-family: 'Rubik', sans-serif;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 28px;
 }
 
 h3{
@@ -70,10 +71,7 @@ ul li{
 
 @media screen and (max-width: 790px) {
   h1{
-    font-size: 30px;
-  }
-  p{
-    font-size: 18px;
+    font-size: 32px;
   }
 }
 
@@ -114,17 +112,20 @@ button:hover{
   background-color: transparent;
   color: white;
 
+  height: 80px;;
   padding: 20px;
 
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
+  font-style: bold;
 
-  border-radius: 0;
+  border-radius: 5px;
   z-index: 1;
 }
 
 .join:hover{
   color: #5757a8;
+  box-shadow: none;
 }
 
 .join a {
@@ -296,6 +297,8 @@ footer{
   background-position: center;
   color: white;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 footer h5{
